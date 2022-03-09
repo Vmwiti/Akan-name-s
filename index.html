@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +9,34 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="css/script.js"></script>
 </head>
+
 <body>
-    <h1>Akan Names</h1> 
-    <p> This an application that takes a user's birthday and calculates the  <br> day of the week they were born and then depending on  <br> their gender outputs their Akan Name. </p>
+    <h1>Akan Names</h1>
+    <p> This an application that takes a user's birthday and calculates the <br> day of the week they were born and then
+        depending on <br> their gender outputs their Akan Name. </p>
     <h2>African culture <br> Names</h2>
 
     <img src="css/dow.jpeg" alt="">
     <div class="form">
-        <form id="myForm" onsubmit="return false" >
+        <form id="myForm" onsubmit="return false">
             <div class="box">
                 <label for="date">Enter your Birthday</label><br>
                 <input type="date" id="date" required>
-            
+
             </div>
             <div class="box">
-            <label for="gender">choose your gender</label><br> 
-            <select name="gender" id="gender">
-                <option value="male" id="male"> Male</option>
-                <option value="female" id="female">Female</option>
-            </select>  
+                <label for="gender">choose your gender</label><br>
+                <select name="gender" id="gender">
+                    <option value="male" id="male"> Male</option>
+                    <option value="female" id="female">Female</option>
+                </select>
             </div>
             <div class="full">
                 <button type="button" id="btn" onclick="findingNames()"> submit</button>
             </div>
         </form>
         <p id="message"></p>
-    </div> 
+    </div>
 </body>
+
 </html>
