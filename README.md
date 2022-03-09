@@ -7,13 +7,13 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 - HTML   
 - CSS (Bootstrap)
-- JavaScript 
+- JavaScript  
+- github
 
 
 ##### Requirements
 
 Css or JavaScript Console
-Github
 
 ##### Setup Instructions and Installation
 
