@@ -15,24 +15,24 @@
 
     <img src="css/dow.jpeg" alt="">
     <div class="form">
-        <form id="myForm">
+        <form id="myForm" onsubmit="return false" >
             <div class="box">
                 <label for="date">Enter your Birthday</label><br>
-                <input type="date" name="date" id="date " required>
+                <input type="date" id="date" required>
             
             </div>
             <div class="box">
             <label for="gender">choose your gender</label><br> 
             <select name="gender" id="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
+                <option value="male" id="male"> Male</option>
+                <option value="female" id="female">Female</option>
             </select>  
             </div>
             <div class="full">
-                <button type="submit"> submit</button>
+                <button type="button" id="btn" onclick="findingNames()"> submit</button>
             </div>
         </form>
         <p id="message"></p>
-    </div>
+    </div> 
 </body>
 </html>
