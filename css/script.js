@@ -15,4 +15,20 @@ function findingNames(){
 
     day = parseInt((((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7);
 
+    if (maleNames[day] === undefined || femaleNames[day] === undefined) {
+        alert("invalid date")
+
+    } 
+    else {
+        if (male.selected === true) {
+            console.log(maleNames[day])
+            alert("your name is " + maleNames[day])
+        }
+        if (female.selected === true) {
+            console.log(femaleNames[day])
+            alert("your name is" + femaleNames[day])
+        }
+    }
+
+
 }
